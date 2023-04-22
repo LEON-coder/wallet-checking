@@ -728,7 +728,8 @@ video {
 }
 
 .justify-center {
-    justify-content: center
+    justify-content: center;
+    margin-top: 16px;
 }
 
 .justify-between {
@@ -890,10 +891,6 @@ video {
 
 .\!pt-0 {
     padding-top: 0!important
-}
-
-.pb-10 {
-    padding-bottom: 2.5rem
 }
 
 .pt-20 {
@@ -1109,6 +1106,19 @@ video {
 
 .group:hover .group-hover\:opacity-100 {
     opacity: 1
+}
+
+#text-result-find {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 28px;
+    height: 40px;
+    transition: 1s ease-in;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -ms-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
 }
 
 @media (min-width: 640px) {

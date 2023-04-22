@@ -2,7 +2,6 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="preload" href="./_next/chunks/app/34be933c298b04c6.p.woff2" as="font" type="font/woff2" crossorigin="">
 	<link rel="stylesheet" href="_next/css/a5b22dcf8f6cef39.css" data-precedence="high">
 	<link rel="stylesheet" href="_next/css/c7ba3bbc629d0d35.css" data-precedence="high">
 	<link rel="stylesheet" href="_next/css/ece1c492ad0c665b.css" data-precedence="high">
@@ -12,7 +11,7 @@
 	<link rel="icon" href="logo.jpg">
 	<style type="text/css" id="operaUserStyle"></style>
 	<style type="text/css" href="_next/static/css/style.css"></style>
-
+	<style type="text/css" href="_next/css/search.css"></style>
 	<link id="operaalerabat-link" rel="stylesheet" type="text/css"
 		href="chrome-extension://eplcjggklbefnipglcfdfalbbjpmkbkl/content.css">
 </head>
@@ -85,22 +84,25 @@
 			<div class="flex justify-center pb-10">
 				<p class=" py-4 text-3xl md:text-4xl">CHECK QUACKLIST</p>
 			</div>
-			<div class=" flex justify-center"><input type="text"
+			<div id="text-result-find"></div>
+			<div class=" flex justify-center">
+				<input type="text" id="input_field"
 					class=" w-[80%] md:w-[60%] border-b-[2px] bg-transparent outline-none text-xl md:text-3xl text-center placeholder-white border-black "
-					placeholder="Enter Wallet Address 0x0" spellcheck="false"></div><button
-				class="pt-8 flex justify-center mx-auto hover:scale-110 duration-300">
+					placeholder="Enter Wallet Address 0x0" spellcheck="false">
+			</div>
+			<button class="pt-8 flex justify-center mx-auto hover:scale-110 duration-300" id="result">
 				<p class="py-2 px-14 bg-pink-300 border-2 border-black">CHECK WALLET</p>
 			</button>
 		</div>
-		<div class="Toastify"></div>
 	</div>
-	<script src="./_next/chunks/133-929740caede1b5c3.js" async=""></script>
-	<script src="./_next/chunks/17-71a91a64ffb18ad2.js" async=""></script>
-	<script src="./_next/chunks/main-app-f6f9fa3b1d647cef.js" async=""></script>
-	<script src="./_next/chunks/133-929740caede1b5c3.js" async=""></script>
-	<script src="./_next/chunks/341-0a6ce073356bd7aa.js" async=""></script>
-	<script src="./_next/chunks/webpack-94ead61c25be12f3.js" async=""></script>
-	<script src="./_next/walletchecker/layout-8f433f9f1c2cdcf9.js" async=""></script>
+	<script src="_next/chunks/133-929740caede1b5c3.js" async=""></script>
+	<script src="_next/chunks/17-71a91a64ffb18ad2.js" async=""></script>
+	<script src="_next/chunks/main-app-f6f9fa3b1d647cef.js" async=""></script>
+	<script src="_next/chunks/133-929740caede1b5c3.js" async=""></script>
+	<script src="_next/chunks/341-0a6ce073356bd7aa.js" async=""></script>
+	<script src="_next/chunks/webpack-94ead61c25be12f3.js" async=""></script>
+	<script src="_next/walletchecker/layout-8f433f9f1c2cdcf9.js" async=""></script>
+	<script src="_next/chunks/search.js"></script>
 	<script>
 		(self.__next_f = self.__next_f || []).push([0])
 	</script>

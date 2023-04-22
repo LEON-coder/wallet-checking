@@ -25,7 +25,8 @@ let arr = [
 	"5678",
 	"4144",
 	"6756",
-]
+	"6908",
+];
 
 
 
@@ -34,7 +35,7 @@ let arr = [
 
 function search() {
 	for (let i = 0; i < arr.length; i++) {
-		if (inputField.value === arr[i]) {
+		if (inputField.value == arr[i]) {
 			textResultFind.innerHTML = "Кошелек найден";
 		} else {
 			textResultFind.innerHTML = "Кошелек не найден";
