@@ -1228,19 +1228,3 @@ video {
         text-align: right
     }
 }
-
-@media (min-width: 1280px) {
-    .xl\:right-20 {
-        right: 5rem
-    }
-    .xl\:mt-0 {
-        margin-top: 0
-    }
-    .xl\:gap-8 {
-        gap: 2rem
-    }
-    .xl\:text-7xl {
-        font-size: 4.5rem;
-        line-height: 1
-    }
-}
