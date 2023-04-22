@@ -1,0 +1,46 @@
+/*поле ввода*/
+
+.searchtext {
+    font-size: 16px;
+    font-weight: bold;
+    height: 27px;
+    padding: 0 6px 0;
+    width: 250px;
+    /*делаем стильную границу вокруг поля*/
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* выбираем цвет подсветки — светло-зелёный*/
+
+.highlight {
+    background: #4cff00;
+}
+
+#input_field {
+    width: 200px;
+    height: 20px;
+    display: block;
+}
+
+#field-result {
+    width: 200px;
+    height: 20px;
+    display: block;
+    margin-top: 20px;
+    border: 3px solid;
+}
+
+#result {
+    display: block;
+    background-color: #c77518;
+    font-weight: bold;
+    font-size: 12px;
+    height: 28px;
+    margin: 0;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 130px;
+    color: black;
+    margin-top: 20px;
+}
