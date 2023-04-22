@@ -2,6 +2,9 @@ let inputField = document.getElementById('input_field');
 let outputField = document.getElementById('result');
 let resultFind = document.querySelector('text-result-find');
 let fieldResult = document.getElementById('field-result');
+let textResultFind = document.getElementById('text-result-find');
+
+
 
 let arr = [
 	"0000",
@@ -22,22 +25,26 @@ let arr = [
 	"5678",
 	"4144",
 	"6756",
-	"6754",
-];
+]
 
 
-outputField.addEventListener('click', search);
+
 
 
 
 function search() {
 	for (let i = 0; i < arr.length; i++) {
 		if (inputField.value === arr[i]) {
-			fieldResult.value = inputField.value;
-			fieldResult.value = 'Кошелек найден';
+			textResultFind.innerHTML = "Кошелек найден";
 		} else {
-			resultFind.innerHTML = "Кошелек не найден";
+			textResultFind.innerHTML = "Кошелек не найден";
 		}
+	}
 
+	if (inputField.value === '') {
+		textResultFind.innerHTML = "Введите номер кошелька";
 	}
 }
+
+
+outputField.addEventListener('click', search);
