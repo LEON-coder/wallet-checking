@@ -942,6 +942,7 @@ video {
     line-height: 2.25rem;
     font-family: 'inter_extra_light.woff2';
     color: white;
+    opacity: .75;
 }
 
 .text-5xl {
