@@ -167,13 +167,12 @@ function search() {
 	for (let i = 0; i < arr.length; i++) {
 
 		if (inputField.value == arr[i]) {
-			textResultFind.innerHTML = "wallet founded";
-		} else {
-			textResultFind.innerHTML = "wallet not founded";
-		};
+			textResultFind.innerHTML = "wallet found";
+		} else
+
 		if (inputField.value == '') {
 			textResultFind.innerHTML = "input number wallet";
-		}
+		};
 	}
 }
 
