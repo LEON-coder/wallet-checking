@@ -182,4 +182,5 @@ outputField.addEventListener('click', search);
 
 clearBtn.addEventListener('click', function () {
 	inputField.value = '';
+	textResultFind.innerHTML = "";
 })
