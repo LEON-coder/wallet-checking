@@ -1205,7 +1205,7 @@ video {
         width: 24rem
     }
     .md\:w-\[60\%\] {
-        width: 40%;
+        width: 20%;
     }
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
@@ -1218,7 +1218,8 @@ video {
     }
     .md\:text-3xl {
         font-size: 1.875rem;
-        line-height: 2.25rem
+        line-height: 2.25rem;
+        width: 70%;
     }
     .md\:text-4xl {
         font-size: 2.25rem;
