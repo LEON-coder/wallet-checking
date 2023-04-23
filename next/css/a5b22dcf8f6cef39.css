@@ -824,9 +824,10 @@ video {
 .bg-blue-300 {
     font-family: 'inter_extra_light';
     --tw-bg-opacity: 1;
-    background: rgb(105, 105, 105);
+    background: #1d1d1c;
     border-radius: 20px;
     transition: 1s;
+    border: 3px solid #e2e2e3;
 }
 
 .bg-pink-300 {
@@ -937,6 +938,7 @@ video {
     font-size: 1.475rem;
     line-height: 2.25rem;
     font-family: 'inter_extra_light.woff2';
+    color: white;
 }
 
 .text-5xl {
@@ -1058,7 +1060,7 @@ video {
 *,
 :after,
 :before {
-    cursor: url('./../img/cursor1.png'), default;
+    cursor: url('./../img/cursor2.png'), default;
 }
 
 ::-webkit-scrollbar {
