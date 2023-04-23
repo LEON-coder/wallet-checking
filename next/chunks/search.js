@@ -167,13 +167,17 @@ let arr = [
 function search() {
 	for (let i = 0; i < arr.length; i++) {
 		if (inputField.value == arr[i]) {
-			textResultFind.innerHTML = "Кошелек найден"
+			textResultFind.innerHTML = "Кошелек найден";
+		}
+
+		if (inputField.value == '') {
+			textResultFind.innerHTML = "Введите номер кошелька"
 		}
 	}
 
-	if (inputField.value == '') {
-		textResultFind.innerHTML = "Введите номер кошелька";
-	}
+
+
+
 }
 
 
