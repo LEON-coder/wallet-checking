@@ -3,6 +3,7 @@ let outputField = document.getElementById('result');
 let resultFind = document.querySelector('text-result-find');
 let fieldResult = document.getElementById('field-result');
 let textResultFind = document.getElementById('text-result-find');
+let clearBtn = document.getElementById('clear');
 
 
 
@@ -167,14 +168,18 @@ let arr = [
 function search() {
 	for (let i = 0; i < arr.length; i++) {
 		if (inputField.value == arr[i]) {
-			textResultFind.innerHTML = "Кошелёк найден"
-		};
+			textResultFind.innerHTML = "Кошелёк найден";
+		}
 
 		if (inputField.value == '') {
-			textResultFind.innerHTML = "Введите номер кошелька"
+			textResultFind.innerHTML = "Введите номер кошелька";
 		}
 	}
 }
 
 
 outputField.addEventListener('click', search);
+
+clearBtn.addEventListener('click', function () {
+	inputField.value = '';
+})
