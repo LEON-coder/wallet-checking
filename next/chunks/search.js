@@ -168,11 +168,11 @@ let arr = [
 function search() {
 	for (let i = 0; i < arr.length; i++) {
 		if (inputField.value == arr[i]) {
-			textResultFind.innerHTML = "Кошелёк найден";
+			textResultFind.innerHTML = "wallet founded";
 		}
 
 		if (inputField.value == '') {
-			textResultFind.innerHTML = "Введите номер кошелька";
+			textResultFind.innerHTML = "input number wallet";
 		}
 	}
 }
