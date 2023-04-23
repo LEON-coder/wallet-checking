@@ -3,8 +3,6 @@ let outputField = document.getElementById('result');
 let resultFind = document.querySelector('text-result-find');
 let fieldResult = document.getElementById('field-result');
 let textResultFind = document.getElementById('text-result-find');
-let clearBtn = document.getElementById('clear');
-
 
 
 let arr = [
@@ -167,10 +165,12 @@ let arr = [
 
 function search() {
 	for (let i = 0; i < arr.length; i++) {
+
 		if (inputField.value == arr[i]) {
 			textResultFind.innerHTML = "wallet founded";
-		}
-
+		} else {
+			textResultFind.innerHTML = "wallet not founded";
+		};
 		if (inputField.value == '') {
 			textResultFind.innerHTML = "input number wallet";
 		}
@@ -178,9 +178,5 @@ function search() {
 }
 
 
-outputField.addEventListener('click', search);
 
-clearBtn.addEventListener('click', function () {
-	inputField.value = '';
-	textResultFind.innerHTML = "";
-})
+outputField.addEventListener('click', search);
